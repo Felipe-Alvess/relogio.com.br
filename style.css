@@ -58,6 +58,16 @@ width: 100%;
 }
 /* Relógio */
 
+@media (max-width: 1024px) {
+    .image img{
+        width: 100%;
+        height: 100vh;
+    }
+    .container{
+    margin: 0 2%;
+    }
+}
+
 @media (max-width: 768px) {
     .image img{
         width: 100%;
